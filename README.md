@@ -7,7 +7,10 @@
 - Любимых шуток может отображаться максимум 10, после при добавление новой шутки самая первая удаляется, а новая добавляется в конец листа.
 - Так же нужно создать кнопку которая очищает лист любимых шуток.
 
-- Обязательные технические требования:
+# Стек:
+- Архитектра feature-sliced, bit of atomic design
+- Vite, eslint, prettier, simple-import-sort
 - TypeScript
-- Styled Components
-- Библиотека для управления состоянием (redux, effector, mobx и т.п)
+- React
+- Redux Toolkit
+- Styled Components, styled system
