@@ -19,7 +19,7 @@ export const ListJokes = () => {
       )}
 
       {jokes.length > 0 && (
-        <Container flexWrap="wrap">
+        <Container>
           {jokes.map((joke) => {
             return (
               <JokeCard

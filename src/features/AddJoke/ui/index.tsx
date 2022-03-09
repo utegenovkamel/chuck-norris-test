@@ -11,5 +11,9 @@ export const AddJokeButton = () => {
     dispatch(fetchRandomJoke())
   }
 
-  return <Button onClick={onAddRandomJoke}>Add a random joke</Button>
+  return (
+    <Button onClick={onAddRandomJoke} width="100%">
+      Add a random joke
+    </Button>
+  )
 }

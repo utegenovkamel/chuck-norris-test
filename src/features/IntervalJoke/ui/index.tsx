@@ -32,7 +32,7 @@ export const IntervalJokeButton = () => {
   }, [])
 
   return (
-    <Button maxWidth="50%" onClick={onToggleInterval}>
+    <Button width="100%" onClick={onToggleInterval} mb="1rem">
       {intervalJoke}
     </Button>
   )

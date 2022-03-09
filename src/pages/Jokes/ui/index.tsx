@@ -10,9 +10,9 @@ import { Container } from './styled'
 export const JokesPage = () => {
   return (
     <Container>
-      <Flex justifyContent="space-between" mb="1.5rem">
-        <AddJokeButton />
+      <Flex justifyContent="space-between" mb="1.5rem" flexWrap="wrap">
         <IntervalJokeButton />
+        <AddJokeButton />
       </Flex>
       <ListJokes />
     </Container>
